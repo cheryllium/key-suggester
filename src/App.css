@@ -1,0 +1,52 @@
+body {
+    margin: 15px;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.key-signature {
+    position: relative;
+    height: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.treble-clef {
+    height: 80px;
+    position: absolute;
+    left: 10px;
+}
+
+.staff-line {
+    position: absolute;
+    left: 0;
+    border: 1px solid #000;
+    width: 200px;
+}
+
+.staff-line:nth-child(2) {
+    top: 10px; 
+}
+.staff-line:nth-child(3) {
+    top: 20px;
+}
+.staff-line:nth-child(4) {
+    top: 30px;
+}
+.staff-line:nth-child(5) {
+    top: 40px;
+}
+.staff-line:nth-child(6) {
+    top: 50px;
+}
+
+.accidental {
+    position: absolute;
+    font-size: 25px;
+}
