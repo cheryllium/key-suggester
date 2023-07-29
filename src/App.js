@@ -4,7 +4,7 @@ import './App.css';
 const NOTES = ['C', 'D', 'E', 'F', 'G', 'A', 'B']
 const FIFTHS = ['B', 'E', 'A', 'D', 'G', 'C', 'F']
 const FLAT_OFFSETS = [16, 1, 21, 6, 26, 11, 31]
-const SHARP_OFFSETS = [6, 20, 1, 10, 26, 6, 20]
+const SHARP_OFFSETS = [1, 16, -3, 11, 26, 6, 21]
 
 const KeySignature = ({ root, scale }) => {
   let accidentals
