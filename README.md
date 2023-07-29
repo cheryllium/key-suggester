@@ -2,7 +2,7 @@
 
 This handy program suggests a key for your next musical project. 
 
-Demo online: https://boisterous-blini-de6be6.netlify.app/
+Demo online: https://key-suggester.netlify.app/
 
 ## Further reading
 
